@@ -2,10 +2,6 @@
 #include <ESPmDNS.h>
 #include <WiFiUdp.h>
 #include <ArduinoOTA.h>
-#include <credentials.h>
-
-const char* ssid = mySSID;
-const char* password = myPASSWORD;
 
 void setupOTA() {
   WiFi.mode(WIFI_STA);
