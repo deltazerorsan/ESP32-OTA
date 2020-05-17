@@ -1,3 +1,3 @@
 # ESP32 OTA
  
-Material for my YouTube video
+Minimum schema to work with OTA in ESP32
