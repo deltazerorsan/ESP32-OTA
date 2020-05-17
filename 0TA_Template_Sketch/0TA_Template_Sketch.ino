@@ -1,3 +1,8 @@
+#include <credentials.h>
+
+const char* ssid = mySSID;
+const char* password = myPASSWORD;
+
 #include "OTA.h"
 unsigned long entry;
 void setup() {
