@@ -1,10 +1,6 @@
-#include <credentials.h>
-
-const char* ssid = mySSID;
-const char* password = myPASSWORD;
-
+#include "credentials.h"
 #include "OTA.h"
-unsigned long entry;
+
 void setup() {
   Serial.begin(115200);
   Serial.println("Booting");
